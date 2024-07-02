@@ -39,8 +39,9 @@ AddPackage --foreign xone-dkms-git # Modern Linux driver for Xbox One and Xbox S
 AddPackage --foreign xone-dongle-firmware # Xbox Wireless Controller Adapter firmware
 
 AddPackage --foreign aic94xx-firmware # Adaptec SAS 44300, 48300, 58300 Sequencer Firmware for AIC94xx driver
+AddPackage --foreign upd72020x-fw # Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
+AddPackage --foreign wd719x-firmware # Driver for Western Digital WD7193, WD7197 and WD7296 SCSI cards
+
 AddPackage --foreign duckstation-qt-bin # Fast PlayStation 1 emulator for PC and Android
 AddPackage --foreign losslesscut-bin # Crossplatform GUI tool for lossless trimming/cutting of video/audio files
 AddPackage --foreign sublime-text-4 # Sophisticated text editor for code, html and prose - stable build
-AddPackage --foreign upd72020x-fw # Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
-AddPackage --foreign wd719x-firmware # Driver for Western Digital WD7193, WD7197 and WD7296 SCSI cards
