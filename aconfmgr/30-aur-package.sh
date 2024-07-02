@@ -1,14 +1,11 @@
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign expressvpn # Proprietary VPN client for Linux
 AddPackage --foreign httpdirfs # A filesystem which allows you to mount HTTP directory listings
-AddPackage --foreign mkinitcpio-firmware # Optional firmware for the default linux kernel to get rid of the annoying 'WARNING: Possibly missing firmware for module:' messages
 AddPackage --foreign onedrive-abraunegg # Free OneDrive client written in D - abraunegg's fork. Follows the releases on https://github.com/abraunegg/onedrive/releases
-AddPackage --foreign prime-switcher # Tool (GUI + CLI) to select used GPU for Optimus Laptop
 AddPackage --foreign ttf-ms-win11-auto # Microsoft Windows 11 TrueType fonts
 AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
 
 AddPackage --foreign heroic-games-launcher-bin # An Open source Launcher for Epic, Amazon and GOG Games
-AddPackage --foreign kdumpst # kdumpst, a tool for collecting pstore/kdump logs.
 AddPackage --foreign laptop-mode-tools # Power saving tool for Linux
 
 AddPackage --foreign brave-bin # Web browser that blocks ads and trackers by default (binary release)
@@ -38,6 +35,12 @@ AddPackage --foreign ttf-aptos # The new default Microsoft 365 font, used by Mic
 AddPackage --foreign docker-desktop # Docker Desktop is an easy-to-install application that enables you to locally build and share containerized applications and microservices.
 AddPackage --foreign epson-inkjet-printer-escpr2 # Epson Inkjet Printer Driver 2 (ESC/P-R) for Linux
 
-AddPackage --foreign duckstation-git # A Sony PlayStation (PSX) emulator, focusing on playability, speed, and long-term maintainability (git version)
 AddPackage --foreign xone-dkms-git # Modern Linux driver for Xbox One and Xbox Series X|S controllers
 AddPackage --foreign xone-dongle-firmware # Xbox Wireless Controller Adapter firmware
+
+AddPackage --foreign aic94xx-firmware # Adaptec SAS 44300, 48300, 58300 Sequencer Firmware for AIC94xx driver
+AddPackage --foreign duckstation-qt-bin # Fast PlayStation 1 emulator for PC and Android
+AddPackage --foreign losslesscut-bin # Crossplatform GUI tool for lossless trimming/cutting of video/audio files
+AddPackage --foreign sublime-text-4 # Sophisticated text editor for code, html and prose - stable build
+AddPackage --foreign upd72020x-fw # Renesas uPD720201 / uPD720202 USB 3.0 chipsets firmware
+AddPackage --foreign wd719x-firmware # Driver for Western Digital WD7193, WD7197 and WD7296 SCSI cards

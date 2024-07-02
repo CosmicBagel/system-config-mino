@@ -7,7 +7,6 @@ AddPackage bat # Cat clone with syntax highlighting and git integration
 AddPackage bind # A complete, highly portable implementation of the DNS protocol
 AddPackage btop # A monitor of system resources, bpytop ported to C++
 AddPackage calibre # Ebook management application
-AddPackage cameractrls # Camera controls for Linux
 AddPackage clamav # Anti-virus toolkit for Unix
 AddPackage cups # OpenPrinting CUPS - daemon package
 AddPackage cups-pdf # PDF printer for cups
@@ -29,8 +28,6 @@ AddPackage graphviz # Graph visualization software
 AddPackage gumbo-parser # HTML5 parsing library in pure C99
 AddPackage gwenview # A fast and easy to use image viewer
 AddPackage help2man # Conversion tool to create man files
-AddPackage intel-media-driver # Intel Media Driver for VAAPI — Broadwell+ iGPUs
-AddPackage intel-undervolt # Intel CPU undervolting tool
 AddPackage isoimagewriter # Program to write hybrid ISO files onto USB disks
 AddPackage kate # Advanced text editor
 AddPackage keyd # A key remapping daemon for linux
@@ -41,16 +38,12 @@ AddPackage lib32-libpulse # A featureful, general-purpose sound server (32-bit c
 AddPackage lib32-nvidia-utils # NVIDIA drivers utilities (32-bit)
 AddPackage lib32-openal # Cross-platform 3D audio library, software implementation (32-bit)
 AddPackage lib32-virtualgl # 32-bit serverside components for 64-bit VirtualGL servers
-AddPackage lib32-vulkan-intel # Open-source Vulkan driver for Intel GPUs - 32-bit
 AddPackage libinput # Input device management and event handling library
 AddPackage liblphobos # A D Compiler based on the LLVM Compiler Infrastructure including D runtime and libphobos2
 AddPackage libreoffice-fresh # LibreOffice branch which contains new features and program enhancements
-AddPackage libva-utils # Intel VA-API Media Applications and Scripts for libva
 AddPackage linux # The Linux kernel and modules
 AddPackage linux-firmware # Firmware files for Linux
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
-AddPackage linux-lts # The LTS Linux kernel and modules
-AddPackage linux-lts-headers # Headers and scripts for building modules for the LTS Linux kernel
 AddPackage man-db # A utility for reading man pages
 AddPackage man-pages # Linux man pages
 AddPackage mpv # a free, open source, and cross-platform media player
@@ -59,7 +52,6 @@ AddPackage networkmanager # Network connection manager and user applications
 AddPackage nftables # Netfilter tables userspace tools
 AddPackage nmap # Utility for network discovery and security auditing
 AddPackage nvidia-dkms # NVIDIA drivers - module sources
-AddPackage nvidia-prime # NVIDIA Prime Render Offload configuration and utilities
 AddPackage nvidia-settings # Tool for configuring the NVIDIA graphics driver
 AddPackage nvtop # GPUs process monitoring for AMD, Intel and NVIDIA
 AddPackage okular # Document Viewer
@@ -70,7 +62,6 @@ AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
 AddPackage partitionmanager # A KDE utility that allows you to manage disks, partitions, and file systems
 AddPackage perl-image-exiftool # Reader and rewriter of EXIF information that supports raw files
 AddPackage plasma-meta # Meta package to install KDE Plasma
-AddPackage powertop # A tool to diagnose issues with power consumption and power management
 AddPackage refind # An EFI boot manager
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
@@ -81,7 +72,6 @@ AddPackage steam # Valve's digital software delivery system
 AddPackage system-config-printer # A CUPS printer configuration tool and status applet
 AddPackage systemd-resolvconf # systemd resolvconf replacement (for use with systemd-resolved)
 AddPackage terminus-font # Monospace bitmap font (for X11 and console)
-AddPackage timeshift # A system restore utility for Linux
 AddPackage tldr # Command line client for tldr, a collection of simplified and community-driven man pages.
 AddPackage traceroute # Tracks the route taken by packets over an IP network
 AddPackage ttf-liberation # Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
@@ -99,9 +89,6 @@ AddPackage zoxide # A smarter cd command for your terminal
 
 AddPackage cpupower # Linux kernel tool to examine and tune power saving related features of your processor
 AddPackage glow # Command-line markdown renderer
-AddPackage hdparm # A shell utility for manipulating Linux IDE drive/driver parameters
-AddPackage intel-ucode # Microcode update files for Intel CPUs
-AddPackage iucode-tool # Tool to manipulate Intel® IA-32/X86-64 microcode bundles
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
 AddPackage sshfs # FUSE client based on the SSH File Transfer Protocol
 AddPackage tinyxxd # Standalone version of the hex dump utility that comes with ViM
@@ -161,3 +148,20 @@ AddPackage skanlite # Image Scanning Application
 
 AddPackage zed # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 AddPackage github-cli # The GitHub CLI
+
+AddPackage alsa-utils # Advanced Linux Sound Architecture - Utilities
+AddPackage amd-ucode # Microcode update image for AMD CPUs
+AddPackage audacity # A program that lets you manipulate digital audio waveforms
+AddPackage lib32-libva-mesa-driver # Open-source VA-API drivers - 32-bit
+AddPackage lib32-mesa-vdpau # Open-source VDPAU drivers - 32-bit
+AddPackage libva-mesa-driver # Open-source VA-API drivers
+AddPackage linux-firmware-qlogic # Firmware files for Linux - qlogic / Firmware for QLogic devices
+AddPackage mesa-vdpau # Open-source VDPAU drivers
+AddPackage obs-studio # Free, open source software for live streaming and recording
+AddPackage pavucontrol-qt # A Pulseaudio mixer in Qt (port of pavucontrol)
+AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
+AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+AddPackage radeontop # View GPU utilization for total activity percent and individual blocks
+AddPackage vulkan-mesa-layers # Mesa's Vulkan layers
+AddPackage vulkan-radeon # Open-source Vulkan driver for AMD GPUs
+AddPackage winetricks # Script to install various redistributable runtime libraries in Wine.

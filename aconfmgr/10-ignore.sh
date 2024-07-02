@@ -69,3 +69,6 @@ IgnorePath '/usr/share/applications/org.wezfurlong.wezterm.desktop'
 IgnorePath '/usr/lib/utempter/utempter'
 IgnorePath '/usr/bin/groupmems'
 IgnorePath '/var/log/journal'
+
+# ucode
+IgnorePath '/boot/amd-ucode.img'
