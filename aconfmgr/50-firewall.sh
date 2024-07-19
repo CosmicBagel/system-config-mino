@@ -60,8 +60,8 @@ CopyFile /etc/firewalld/icmptypes/ttl-zero-during-reassembly.xml
 CopyFile /etc/firewalld/icmptypes/ttl-zero-during-transit.xml
 CopyFile /etc/firewalld/icmptypes/unknown-header-type.xml
 CopyFile /etc/firewalld/icmptypes/unknown-option.xml
-CopyFile /etc/firewalld/lockdown-whitelist.xml
-CopyFile /etc/firewalld/lockdown-whitelist.xml.old
+# CopyFile /etc/firewalld/lockdown-whitelist.xml
+# CopyFile /etc/firewalld/lockdown-whitelist.xml.old
 CopyFile /etc/firewalld/policies/allow-host-ipv6.xml
 CopyFile /etc/firewalld/policies/allow-host-ipv6.xml.old
 CopyFile /etc/firewalld/services/0-AD.xml
