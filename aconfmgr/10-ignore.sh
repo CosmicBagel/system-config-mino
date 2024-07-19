@@ -61,6 +61,7 @@ IgnorePath '/etc/subuid-'
 
 # updated via reflector --country Canada,US --latest 20 --sort rate --save /etc/pacman.d/mirrorlist
 IgnorePath '/etc/pacman.d/mirrorlist'
+IgnorePath '/etc/pacman.d/mirrorlist.pacnew'
 
 # odd stuff
 IgnorePath '/usr/share/sddm/scripts/Xsetup'
