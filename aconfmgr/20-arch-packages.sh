@@ -167,3 +167,8 @@ AddPackage vulkan-radeon # Open-source Vulkan driver for AMD GPUs
 AddPackage winetricks # Script to install various redistributable runtime libraries in Wine.
 
 AddPackage ttf-jetbrains-mono-nerd # Patched font JetBrains Mono from nerd fonts library
+
+AddPackage dolphin-emu # A Gamecube and Wii emulator
+AddPackage ghex # A simple binary editor for the Gnome desktop
+AddPackage net-tools # Configuration tools for Linux networking
+AddPackage trash-cli # Command line trashcan (recycle bin) interface

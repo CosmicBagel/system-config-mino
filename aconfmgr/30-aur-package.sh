@@ -19,7 +19,6 @@ AddPackage --foreign neovim-remote # Support --remote and friends for Neovim
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 AddPackage --foreign wlrctl # Utility for miscellaneous wlroots extensions
 
-
 AddPackage --foreign neovim-git # Fork of Vim aiming to improve user experience, plugins, and GUIs
 
 AddPackage --foreign godot-mono-bin # Godot is an advanced, feature packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.
@@ -45,3 +44,5 @@ AddPackage --foreign wd719x-firmware # Driver for Western Digital WD7193, WD7197
 AddPackage --foreign duckstation-qt-bin # Fast PlayStation 1 emulator for PC and Android
 AddPackage --foreign losslesscut-bin # Crossplatform GUI tool for lossless trimming/cutting of video/audio files
 AddPackage --foreign sublime-text-4 # Sophisticated text editor for code, html and prose - stable build
+
+AddPackage --foreign qdirstat # Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
